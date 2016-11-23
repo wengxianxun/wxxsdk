@@ -23,10 +23,10 @@ Pod::Spec.new do |s|
   s.author             = { "joying" => "wengxianxun@hotmail.com" }
    
 
-
-s.source       = { :git => "https://github.com/kevinrandrup/DropDownMenu.git", :commit => "0d6761feefccff1f7d8b7c7788ceb8e9cd1314ea" }
+s.source       = { :git => "https://github.com/wengxianxun/wxxsdk.git", :tag => "#{s.version}" }
+#s.source       = { :git => "https://github.com/kevinrandrup/DropDownMenu.git", :commit => "0d6761feefccff1f7d8b7c7788ceb8e9cd1314ea" }
 s.source_files  = 'Classes/**/*.{h,m}'
-  #s.source       = { :git => "https://github.com/wengxianxun/wxxsdk.git", :tag => "#{s.version}" }
+  
  
 
   #s.source_files  = "Classes", "Classes/**/*.{h,m}"
