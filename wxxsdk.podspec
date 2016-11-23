@@ -26,7 +26,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/wengxianxun/wxxsdk.git", :tag => "#{s.version}" }
  
 
-  s.source_files = 'wxxsdk/wxxsdk/*'
-   
+  s.source_files  = "Classes", "Classes/**/*.{h,m}"
 
 end
