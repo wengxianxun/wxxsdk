@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
  
 
   s.name         = "wxxsdk"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "翁贤训的第一个sdk."
  
 
