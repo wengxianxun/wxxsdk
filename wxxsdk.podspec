@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "wxxsdk"
-  s.version      = "1.0.4"
+  s.version      = "1.0.5"
   s.summary      = "翁贤训的第一个sdk."
  
 
@@ -27,5 +27,7 @@ Pod::Spec.new do |s|
 s.source       = { :git => "https://github.com/wengxianxun/wxxsdk.git", :tag => "#{s.version}" }
  s.source_files  = 'Classes/**/*'
 
-s.frameworks = 'UIKit'
+
+ s.frameworks = 'CoreImage', 'WebKit', 'Secutiry', 'SystemConfiguration', 'UIKit','libz','libicucore','libsqlite3'
+  s.libraries  = 'ObjC'
 end
