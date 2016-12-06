@@ -10,26 +10,27 @@ Pod::Spec.new do |s|
  
 
 
-  s.name         = "wxxsdk"
-  s.version      = "1.0.6"
-  s.summary      = "翁贤训的第一个sdk."
+s.name         = "wxxsdk"
+s.version      = "1.0.7"
+s.summary      = "翁贤训的第一个sdk."
  
 
-  s.homepage     = "https://github.com/wengxianxun/wxxsdk"
+s.homepage     = "https://github.com/wengxianxun/wxxsdk"
      
-  s.license      = { :type => "MIT", :file => "LICENSE" }
+s.license      = { :type => "MIT", :file => "LICENSE" }
 
-  s.platform    = :ios, "8.0"    #对应的ios平台
-
-  s.author             = { "joying" => "wengxianxun@hotmail.com" }
+s.platform    = :ios, "8.0"    #对应的ios平台
+s.ios.deployment_target = "8.0"
+s.author             = { "joying" => "wengxianxun@hotmail.com" }
    
 
 s.source       = { :git => "https://github.com/wengxianxun/wxxsdk.git", :tag => "#{s.version}" }
- s.source_files  = 'Classes/**/*'
+s.source_files  = 'Classes/**/*.{h,m}'
+s.preserve_paths = "UMVideoSDK.a"
+s.ios.vendored_library = "UMVideoSDK.a"
 
+s.frameworks = 'CoreImage', 'WebKit', 'Security', 'SystemConfiguration', 'UIKit'
 
- s.frameworks = 'CoreImage', 'WebKit', 'Security', 'SystemConfiguration', 'UIKit'
-
- s.library = 'z','sqlite3'
+s.library = 'z','sqlite3'
   
 end
