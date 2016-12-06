@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
 
 s.name         = "wxxsdk"
-s.version      = "1.0.8"
+s.version      = "1.0.9"
 s.summary      = "翁贤训的第一个sdk."
  
 
@@ -26,8 +26,8 @@ s.author             = { "joying" => "wengxianxun@hotmail.com" }
 
 s.source       = { :git => "https://github.com/wengxianxun/wxxsdk.git", :tag => "#{s.version}" }
 s.source_files  = 'Classes/**/*.{h,m}'
-s.preserve_paths = "libUMVideoSDK-1.0.8.a"
-s.ios.vendored_library = "libUMVideoSDK-1.0.8.a"
+s.preserve_paths = "libUMVideoSDK-1.0.9.a"
+s.ios.vendored_library = "libUMVideoSDK-1.0.9.a"
 
 s.frameworks = 'CoreImage', 'WebKit', 'Security', 'SystemConfiguration', 'UIKit'
 
