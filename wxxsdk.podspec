@@ -28,6 +28,8 @@ s.source       = { :git => "https://github.com/wengxianxun/wxxsdk.git", :tag => 
  s.source_files  = 'Classes/**/*'
 
 
- s.frameworks = 'CoreImage', 'WebKit', 'Secutiry', 'SystemConfiguration', 'UIKit','libz','libicucore','libsqlite3'
-  s.libraries  = 'ObjC'
+ s.frameworks = 'CoreImage', 'WebKit', 'Security', 'SystemConfiguration', 'UIKit'
+
+ s.library = 'z','sqlite3'
+  
 end
