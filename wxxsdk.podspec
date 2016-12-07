@@ -26,6 +26,7 @@ s.author             = { "joying" => "wengxianxun@hotmail.com" }
 
 s.source       = { :git => "https://github.com/wengxianxun/wxxsdk.git", :tag => "#{s.version}" }
 s.source_files  = 'Classes/**/*.{h,m}'
+s.resource     = "UMVideo.bundle"
 s.preserve_paths = "libUMVideoSDK-1.0.9.a"
 s.ios.vendored_library = "libUMVideoSDK-1.0.9.a"
 
