@@ -10,25 +10,25 @@ Pod::Spec.new do |s|
  
 
 
-s.name         = "wxxsdk"
-s.version      = "1.1.0"
-s.summary      = "翁贤训的第一个sdk."
+s.name         			= "wxxsdk"
+s.version      			= "1.1.1"
+s.summary      			= "有米广告iOS视频sdk"
  
 
-s.homepage     = "https://github.com/wengxianxun/wxxsdk"
+s.homepage     			= "https://github.com/wengxianxun/wxxsdk"
      
-s.license      = { :type => "MIT", :file => "LICENSE" }
+s.license      			= { :type => "MIT", :file => "LICENSE" }
 
-s.platform    = :ios, "8.0"    #对应的ios平台
+s.platform    			= :ios, "8.0"    #对应的ios平台
 s.ios.deployment_target = "8.0"
-s.author             = { "joying" => "wengxianxun@hotmail.com" }
+s.author             	= { "joying" => "wengxianxun@hotmail.com" }
    
 
-s.source       = { :git => "https://github.com/wengxianxun/wxxsdk.git", :tag => "#{s.version}" }
-s.source_files  = 'lib/**/*.{h,m}'
-s.resource     = "UMVideo.bundle"
-s.preserve_paths = "lib/UMVideoSDK.a"
-s.ios.vendored_library = "lib/UMVideoSDK.a"
+s.source       			= { :git => "https://github.com/wengxianxun/wxxsdk.git", :tag => "#{s.version}" }
+s.source_files  		= 'lib/**/*.{h,m}'
+s.resource     			= "lib/UMVideo.bundle"
+s.preserve_paths 		= "lib/UMVideoSDK.a"
+s.ios.vendored_library 	= "lib/UMVideoSDK.a"
 
 s.frameworks = 'CoreImage', 'WebKit', 'Security', 'SystemConfiguration', 'UIKit'
 
