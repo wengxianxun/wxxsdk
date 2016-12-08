@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
 
 s.name         			= "wxxsdk"
-s.version      			= "1.1.1"
+s.version      			= "1.1.2"
 s.summary      			= "有米广告iOS视频sdk"
  
 
