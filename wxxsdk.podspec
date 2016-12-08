@@ -27,8 +27,8 @@ s.author             	= { "umplus" => "wengxianxun@hotmail.com" }
 s.source       			= { :git => "https://github.com/wengxianxun/wxxsdk.git", :tag => "#{s.version}" }
 s.source_files  		= 'lib/**/*.{h,m}'
 s.resource     			= "lib/UMVideo.bundle"
-s.preserve_paths 		= "lib/UMVideoSDK.a"
-s.ios.vendored_library 	= "lib/UMVideoSDK.a"
+s.preserve_paths 		= "lib/libUMVideoSDK.a"
+s.ios.vendored_library 	= "lib/libUMVideoSDK.a"
 
 s.frameworks = 'CoreImage', 'WebKit', 'Security', 'SystemConfiguration', 'UIKit'
 
