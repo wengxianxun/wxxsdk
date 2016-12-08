@@ -19,9 +19,9 @@ s.homepage     			= "https://github.com/wengxianxun/wxxsdk"
      
 s.license      			= { :type => "MIT", :file => "LICENSE" }
 
-s.platform    			= :ios, "8.0"    #对应的ios平台
+s.platform    			= :ios, "8.0"
 s.ios.deployment_target = "8.0"
-s.author             	= { "joying" => "wengxianxun@hotmail.com" }
+s.author             	= { "umplus" => "wengxianxun@hotmail.com" }
    
 
 s.source       			= { :git => "https://github.com/wengxianxun/wxxsdk.git", :tag => "#{s.version}" }
