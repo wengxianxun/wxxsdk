@@ -25,10 +25,10 @@ s.author             = { "joying" => "wengxianxun@hotmail.com" }
    
 
 s.source       = { :git => "https://github.com/wengxianxun/wxxsdk.git", :tag => "#{s.version}" }
-s.source_files  = 'Classes/**/*.{h,m}'
+s.source_files  = 'lib/**/*.{h,m}'
 s.resource     = "UMVideo.bundle"
-s.preserve_paths = "libUMVideoSDK-#{s.version}.a"
-s.ios.vendored_library = "libUMVideoSDK-#{s.version}.a"
+s.preserve_paths = "lib/libUMVideoSDK-#{s.version}.a"
+s.ios.vendored_library = "lib/libUMVideoSDK-#{s.version}.a"
 
 s.frameworks = 'CoreImage', 'WebKit', 'Security', 'SystemConfiguration', 'UIKit'
 
