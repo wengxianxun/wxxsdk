@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
 
 s.name         			= "wxxsdk"
-s.version      			= "1.1.2"
+s.version      			= "1.1.4"
 s.summary      			= "有米广告iOS视频sdk"
  
 
@@ -25,10 +25,10 @@ s.author             	= { "umplus" => "wengxianxun@hotmail.com" }
    
 
 s.source       			= { :git => "https://github.com/wengxianxun/wxxsdk.git", :tag => "#{s.version}" }
-s.source_files  		= 'lib/**/*.{h,m}'
-s.resource     			= "lib/UMVideo.bundle"
-s.preserve_paths 		= "lib/libUMVideoSDK.a"
-s.ios.vendored_library 	= "lib/libUMVideoSDK.a"
+s.source_files  		= 'videosdk/lib/**/*.{h,m}'
+s.resource     			= "videosdk/lib/UMVideo.bundle"
+s.preserve_paths 		= "videosdk/lib/libUMVideoSDK.a"
+s.ios.vendored_library 	= "videosdk/lib/libUMVideoSDK.a"
 
 s.frameworks = 'CoreImage', 'WebKit', 'Security', 'SystemConfiguration', 'UIKit','CFNetwork','MediaPlayer','StoreKit','CoreMotion','AudioToolbox','AdSupport','CoreTelephony'
 
