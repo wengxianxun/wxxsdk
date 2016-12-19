@@ -30,8 +30,10 @@ s.resource     			= "lib/UMVideo.bundle"
 s.preserve_paths 		= "lib/libUMVideoSDK.a"
 s.ios.vendored_library 	= "lib/libUMVideoSDK.a"
 
-s.frameworks = 'CoreImage', 'WebKit', 'Security', 'SystemConfiguration', 'UIKit'
+s.frameworks = 'CoreImage', 'WebKit', 'Security', 'SystemConfiguration', 'UIKit','CFNetwork','MediaPlayer','StoreKit','CoreMotion','AudioToolbox','AdSupport','CoreTelephony'
 
-s.library = 'z','sqlite3'
+s.library = 'z','sqlite3','icucore'
   
 end
+ 
+ 
